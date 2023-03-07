@@ -1,0 +1,15 @@
+[
+    {
+      "name": "pinia",
+      "message": "是否使用pinia", 
+      "type": "confirm",
+      "default": true
+    },
+    {
+        "name": "unocss",
+        "message": "是否使用unocss", 
+        "type": "confirm",
+        "default": true
+      }
+  ]
+  
