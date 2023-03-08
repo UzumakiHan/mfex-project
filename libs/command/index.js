@@ -62,6 +62,8 @@ const handleDownLoad = (projectName) => {
               if (answer.features === 'vue') {
                 // 处理入口文件相关变更main.js
                 fileControl(targetDir, '/src/main.ts', answer)
+                fileControl(targetDir, '/src/router/index.ts', answer)
+                fileControl(targetDir, '/src/vite-env.d.ts', answer)
                 if (!answer.pinia) {
                   delPath(path.join(targetDir, '/src/store'))
                 }

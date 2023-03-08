@@ -1,4 +1,10 @@
 [
+  {
+    "name": "autoRouter",
+    "message": "是否自动注入路由配置", 
+    "type": "confirm",
+    "default": true
+  },
     {
       "name": "pinia",
       "message": "是否使用pinia", 
@@ -8,6 +14,18 @@
     {
         "name": "unocss",
         "message": "是否使用unocss", 
+        "type": "confirm",
+        "default": true
+      },
+      {
+        "name": "vant",
+        "message": "是否使用vant(按需引入)", 
+        "type": "confirm",
+        "default": true
+      },
+      {
+        "name": "hfexIcon",
+        "message": "是否使用hfex-icon(图标库)", 
         "type": "confirm",
         "default": true
       }
