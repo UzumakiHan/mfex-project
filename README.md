@@ -17,21 +17,17 @@ mfex-project create vue-demo
 
 ```
 ## 有pinia和unocss可以选择是否使用
-![](https://portrait.gitee.com/Hehanjian/static-files/raw/master/images/mfex-project-vue.png)
+![Image text](https://portrait.gitee.com/Hehanjian/static-files/raw/master/images/mfex-project-vue.png)
 
 ## 项目结构
-![](https://portrait.gitee.com/Hehanjian/static-files/raw/master/images/vue-files.png)
+![Image text](https://portrait.gitee.com/Hehanjian/static-files/raw/master/images/vue-files.png)
 
 ## react项目
 
 
 ## 提供mobx和unocss可以选择是否使用
-![](https://portrait.gitee.com/Hehanjian/static-files/raw/master/images/mfex-project-react.png)
+![Image text](https://portrait.gitee.com/Hehanjian/static-files/raw/master/images/mfex-project-react.png)
 
 ## 项目结构
-![](https://portrait.gitee.com/Hehanjian/static-files/raw/master/images/react-files.png)
+![Image text](https://portrait.gitee.com/Hehanjian/static-files/raw/master/images/react-files.png)
 
-# 图片在npm显示不了，可查看gitee
-https://portrait.gitee.com/Hehanjian/mfex-project
-
-![Image text](https://raw.githubusercontent.com/UzumakiHan/ImgLazyLoad/main/imgs/14.jpg)
