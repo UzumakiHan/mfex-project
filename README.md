@@ -16,7 +16,7 @@ npm install -g mfex-project
 mfex-project create vue-demo
 
 ```
-![](2023-03-08-10-09-12.png)
+![](https://raw.githubusercontent.com/UzumakiHan/olderImgLazyLoad/main/img-1.jpg)
 
 ## 有pinia和unocss可以选择是否使用
 ![52879a31fa2b752891b3aaf99b67d75d.png](en-resource://database/549:1)
