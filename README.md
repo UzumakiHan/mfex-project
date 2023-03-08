@@ -30,3 +30,6 @@ mfex-project create vue-demo
 
 ## 项目结构
 ![](https://portrait.gitee.com/Hehanjian/static-files/raw/master/images/react-files.png)
+
+# 图片在npm显示不了，可查看gitee
+https://portrait.gitee.com/Hehanjian/mfex-project
