@@ -29,5 +29,5 @@ mfex-project create vue-demo
 ![Image text](https://portrait.gitee.com/Hehanjian/static-files/raw/master/images/mfex-project-react.png)
 
 ## 项目结构
-![Image text](https://portrait.gitee.com/Hehanjian/static-files/raw/master/images/react-files.png)
+![Image text](https://raw.githubusercontent.com/UzumakiHan/ImgLazyLoad/main/imgs/14.jpg)
 
