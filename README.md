@@ -16,19 +16,17 @@ npm install -g mfex-project
 mfex-project create vue-demo
 
 ```
-![](https://raw.githubusercontent.com/UzumakiHan/olderImgLazyLoad/main/img-1.jpg)
-
 ## 有pinia和unocss可以选择是否使用
-![52879a31fa2b752891b3aaf99b67d75d.png](en-resource://database/549:1)
+![](https://portrait.gitee.com/Hehanjian/static-files/raw/master/images/mfex-project-vue.png)
 
 ## 项目结构
-![902e143f459e7a58e147e2d514df48dc.png](en-resource://database/551:1)
+![](https://portrait.gitee.com/Hehanjian/static-files/raw/master/images/vue-files.png)
 
 ## react项目
 
 
 ## 提供mobx和unocss可以选择是否使用
-![01e9c8ee21cf1a83f44987581cfae52e.png](en-resource://database/553:1)
+![](https://portrait.gitee.com/Hehanjian/static-files/raw/master/images/mfex-project-react.png)
 
 ## 项目结构
-![bd91709a23c79eb15f2df9b3fc322d2e.png](en-resource://database/555:1)
+![](https://portrait.gitee.com/Hehanjian/static-files/raw/master/images/react-files.png)
