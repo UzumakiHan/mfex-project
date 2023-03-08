@@ -33,3 +33,5 @@ mfex-project create vue-demo
 
 # 图片在npm显示不了，可查看gitee
 https://portrait.gitee.com/Hehanjian/mfex-project
+
+![]https://raw.githubusercontent.com/UzumakiHan/ImgLazyLoad/main/imgs/14.jpg
