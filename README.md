@@ -4,15 +4,19 @@
 
 ## 全局安装
 
-`npm install -g mfex-project`
+```
+npm install -g mfex-project
 
+```
 ## 初始化项目
 
 ## vue项目
 
-`mfex-project create vue-demo`
+```
+mfex-project create vue-demo
 
-![a92d525f383cf63e4892d7df695c0fc5.png](en-resource://database/547:1)
+```
+![](2023-03-08-10-09-12.png)
 
 ## 有pinia和unocss可以选择是否使用
 ![52879a31fa2b752891b3aaf99b67d75d.png](en-resource://database/549:1)
