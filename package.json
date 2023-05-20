@@ -1,11 +1,13 @@
 {
   "name": "mfex-project",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "",
   "main": "index.js",
-  "type": "module",
+  "type": "commonjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "changelog": "conventional-changelog -p custom-config -i CHANGELOG.md -s -r 0 -n ./changelog-option.js",
+    "copy": "copyfiles bin/*js libs/*js libs/**/*js libs/**/*json .gitignore .npmignore package.json *.md dist",
+    "build":"npm run changelog && npm run copy"
   },
   "bin": {
     "mfex-project": "./bin/index.js"
@@ -21,5 +23,12 @@
     "fs-extra": "^11.1.0",
     "inquirer": "^9.1.4",
     "ora": "^6.1.2"
+  },
+  "devDependencies":{
+    "commitizen": "^4.3.0",
+    "compare-func": "^2.0.0",
+    "conventional-changelog-cli": "^2.2.2",
+    "conventional-changelog-custom-config": "^0.3.1",
+    "copyfiles": "^2.4.1"
   }
 }
