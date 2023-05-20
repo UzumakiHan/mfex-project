@@ -6,5 +6,7 @@
 * init README ([df8856a](https://github.com/UzumakiHan/mfex-project/commit/df8856a))
 * 脚手架初始化 ([790c5fb](https://github.com/UzumakiHan/mfex-project/commit/790c5fb))
 
+## 1.0.6 (2023-05-20)
 
 
+* 修改 scripts ([9c5e888](https://github.com/UzumakiHan/mfex-project/commit/9c5e888))
