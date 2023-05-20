@@ -1,12 +1,12 @@
 {
   "name": "mfex-project",
-  "version": "1.0.7",
+  "version": "1.0.6",
   "description": "",
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
     "changelog": "conventional-changelog -p custom-config -i CHANGELOG.md -s -r 0 -n ./changelog-option.js",
-    "copy": "copyfiles bin/*js libs/*js libs/**/*js libs/**/*json .gitignore .npmignore package.json *.md dist",
+    "copy": "copyfiles bin/*js libs/*js libs/**/*js libs/**/*json .gitignore .npmignore package.json *.js *.md dist",
     "build":"npm run changelog && npm run copy"
   },
   "bin": {
