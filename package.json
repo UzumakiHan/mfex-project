@@ -5,9 +5,9 @@
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
-    "changelog": "conventional-changelog -p custom-config -i CHANGELOG.md -s -r 0 -n ./changelog-option.js",
+    "changelog": "conventional-changelog -p custom-config -i CHANGELOG.md -s -r 0 -n changelog-option.js",
     "copy": "copyfiles bin/*js libs/*js libs/**/*js libs/**/*json .gitignore .npmignore package.json *.js *.md dist",
-    "build":"npm run changelog && npm run copy"
+    "build": "npm run changelog && npm run copy"
   },
   "bin": {
     "mfex-project": "./bin/index.js"
@@ -24,11 +24,17 @@
     "inquirer": "^9.1.4",
     "ora": "^6.1.2"
   },
-  "devDependencies":{
+  "devDependencies": {
     "commitizen": "^4.3.0",
     "compare-func": "^2.0.0",
     "conventional-changelog-cli": "^2.2.2",
     "conventional-changelog-custom-config": "^0.3.1",
-    "copyfiles": "^2.4.1"
+    "copyfiles": "^2.4.1",
+    "cz-conventional-changelog": "^3.3.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
   }
 }
