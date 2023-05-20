@@ -1,7 +1,7 @@
-## 1.0.7 (2023-05-20)
+## 1.0.6 (2023-05-20)
 
 
-* 新增CI脚本构建 ([a1a9d72](https://github.com/UzumakiHan/mfex-project/commit/a1a9d72))
+* 修改 scripts ([9c5e888](https://github.com/UzumakiHan/mfex-project/commit/9c5e888))
 
 
 
