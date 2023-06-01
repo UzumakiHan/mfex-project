@@ -1,5 +1,5 @@
 [
-    
+
     {
         "name": "features", 
         "message": "请选择要创建的项目模板",
@@ -11,6 +11,7 @@
                 "description": "vue3+vite+ts",
                 "link": "https://gitee.com/Hehanjian/vue-vite-template"
             },
+        
             {
                 "name": "react",
                 "value": "react",

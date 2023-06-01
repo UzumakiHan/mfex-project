@@ -16,6 +16,7 @@ export function fileControl(targetDir, filename, answer) {
         fs.writeFile(path.join(targetDir, filename), html)
     })
 }
+
 /**
 * 判断是否有同名文件夹
 * @param {string} projectName  文件名
