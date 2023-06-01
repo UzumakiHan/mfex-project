@@ -1,16 +1,14 @@
-[ {
-    "name": "mobx",
-    "message": "是否使用mobx", 
-    "type": "confirm",
-    "default": true
-  },
+[
     {
-        "name": "unocss",
-        "message": "是否使用unocss", 
+        "name": "mobx",
+        "message": "是否使用mobx",
         "type": "confirm",
         "default": true
-      }
-  ]
-  
-
-  
+    },
+    {
+        "name": "unocss",
+        "message": "是否使用unocss",
+        "type": "confirm",
+        "default": true
+    }
+]

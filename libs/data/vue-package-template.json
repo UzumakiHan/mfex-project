@@ -1,9 +1,7 @@
 [
-  {
-    "name": "description",
-    "message": "项目描述", 
-    "type": "input"
-  }
+    {
+        "name": "description",
+        "message": "项目描述",
+        "type": "input"
+    }
 ]
-  
-
