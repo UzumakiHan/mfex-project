@@ -1,7 +1,6 @@
 #! /usr/bin/env node
 import handleChecKName from '../libs/command/index.js'
 import {packageJsonData} from '../libs/constant.js';
-
 import { program } from 'commander';
 
 program

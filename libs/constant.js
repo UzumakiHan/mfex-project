@@ -3,7 +3,6 @@ import path from 'path'
 import { fileURLToPath } from 'url'
 const __filenameNew = fileURLToPath(import.meta.url)
 const __dirnameNew = path.dirname(__filenameNew)
-
 // 根目录
 export const rootPath = __dirnameNew.slice(0, __dirnameNew.length - 4)
 
