@@ -10,6 +10,10 @@
   "scripts": {
     "lint-staged": "lint-staged"
   },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:UzumakiHan/mfex-project.git"
+  },
   "keywords": [],
   "author": "UzumakiHan",
   "license": "ISC",
