@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.1](https://github.com/UzumakiHan/mfex-project/compare/v1.1.0...v1.1.1) (2023-06-01)
+
+
+### 🐛 Bug Fixes | Bug 修复
+
+* update package ([97bcaf7](https://github.com/UzumakiHan/mfex-project/commit/97bcaf7afbf35fa93aefb65fdcf872cdc4b44757))
+* update package repository ([12a418a](https://github.com/UzumakiHan/mfex-project/commit/12a418a81a082e56d7b0690b454d1b331407d92b))
+
 ## [1.1.0](https://github.com/UzumakiHan/mfex-project/compare/v1.0.0...v1.1.0) (2023-06-01)
 
 
