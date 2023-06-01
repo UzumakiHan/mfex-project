@@ -15,6 +15,12 @@
                 "value": "react",
                 "description": "react+vite+ts",
                 "link": "https://gitee.com/Hehanjian/react-vite-template"
+            },
+            {
+                "name": "vue-node-package",
+                "value": "vue-node-package",
+                "description": "vue-node-package",
+                "link": "https://gitee.com/Hehanjian/vue-package-template"
             }
         ]
     }

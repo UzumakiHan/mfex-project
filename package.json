@@ -1,19 +1,17 @@
 {
   "name": "mfex-project",
   "version": "1.0.6",
-  "description": "",
+  "description": "创建项目模板",
   "main": "index.js",
-  "type": "commonjs",
-  "scripts": {
-    "changelog": "conventional-changelog -p custom-config -i CHANGELOG.md -s -r 0 -n changelog-option.js",
-    "copy": "copyfiles bin/*js libs/*js libs/**/*js libs/**/*json .gitignore .npmignore package.json *.js *.md dist",
-    "build": "npm run changelog && npm run copy"
-  },
+  "type": "module",
   "bin": {
     "mfex-project": "./bin/index.js"
   },
+  "scripts": {
+    "lint-staged": "lint-staged"
+  },
   "keywords": [],
-  "author": "",
+  "author": "UzumakiHan",
   "license": "ISC",
   "dependencies": {
     "chalk": "^5.2.0",
@@ -25,16 +23,21 @@
     "ora": "^6.1.2"
   },
   "devDependencies": {
-    "commitizen": "^4.3.0",
-    "compare-func": "^2.0.0",
-    "conventional-changelog-cli": "^2.2.2",
-    "conventional-changelog-custom-config": "^0.3.1",
-    "copyfiles": "^2.4.1",
-    "cz-conventional-changelog": "^3.3.0"
+    "eslint": "^8.41.0",
+    "eslint-config-hfex": "^1.0.2",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.2"
   },
-  "config": {
-    "commitizen": {
-      "path": "cz-conventional-changelog"
-    }
+  "eslintConfig": {
+    "root": true,
+    "extends": [
+      "hfex"
+    ]
+  },
+  "lint-staged": {
+    "src/**/*.{ts,js,json,vue,jsx,tsx}": [
+      "eslint --fix",
+      "git add"
+    ]
   }
 }

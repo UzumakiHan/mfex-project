@@ -19,6 +19,9 @@ export const vueConfigList = JSON.parse(fs.readFileSync(rootPath + 'libs/data/vu
 //react 插件配置
 export const reactConfigList = JSON.parse(fs.readFileSync(rootPath + 'libs/data/react.config.json', 'utf8'))
 
+//react 插件配置
+export const vuePackageTemplateConfigList = JSON.parse(fs.readFileSync(rootPath + 'libs/data/vue-package-template.json', 'utf8'))
+
 
 
 
