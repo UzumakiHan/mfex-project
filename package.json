@@ -1,6 +1,6 @@
 {
   "name": "mfex-project",
-  "version": "1.0.6",
+  "version": "1.0.0",
   "description": "创建项目模板",
   "main": "index.js",
   "type": "module",
