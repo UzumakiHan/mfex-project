@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/UzumakiHan/mfex-project/compare/v1.0.0...v1.1.0) (2023-06-01)
+
+
+### ✨ Features | 新功能
+
+* update package.json ([0319cc3](https://github.com/UzumakiHan/mfex-project/commit/0319cc3dcda9cd08e42e984f5892bcad538d3a02))
+
 ## 1.0.0 (2023-06-01)
 
 
