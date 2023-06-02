@@ -22,6 +22,12 @@
                 "value": "vue-node-package",
                 "description": "vue-node-package",
                 "link": "https://gitee.com/Hehanjian/vue-package-template"
+            },
+            {
+                "name": "react-node-package",
+                "value": "react-node-package",
+                "description": "react-node-package",
+                "link": "https://gitee.com/Hehanjian/react-package-template"
             }
         ]
     }

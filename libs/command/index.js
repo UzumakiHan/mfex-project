@@ -4,7 +4,13 @@ import inquirer from 'inquirer';
 import ora from 'ora';
 import chalk from 'chalk';
 import fs from 'fs-extra';
-import {questionList, vueConfigList, reactConfigList, vuePackageTemplateConfigList} from '../constant.js';
+import {
+    questionList,
+    vueConfigList,
+    reactConfigList,
+    vuePackageTemplateConfigList,
+    reactPackageTemplateConfigList
+} from '../constant.js';
 import {isFileExist, fileControl, delPath} from '../utils/index.js';
 // 设置检测重名的问题交互
 const folder = [
@@ -43,6 +49,8 @@ const handleDownLoad = projectName => {
             configAnswer = reactConfigList;
         } else if (res.features === 'vue-node-package') {
             configAnswer = vuePackageTemplateConfigList;
+        } else if (res.features === 'react-node-package') {
+            configAnswer = reactPackageTemplateConfigList;
         }
 
         inquirer.prompt(configAnswer).then(result => {
