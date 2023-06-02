@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/UzumakiHan/mfex-project/compare/v1.1.1...v1.2.0) (2023-06-02)
+
+
+### ✨ Features | 新功能
+
+* 新加react-package模板 ([c63c27d](https://github.com/UzumakiHan/mfex-project/commit/c63c27def1a91fea23b5f99bb9ee60d3de426a9b))
+
 ## [1.1.1](https://github.com/UzumakiHan/mfex-project/compare/v1.1.0...v1.1.1) (2023-06-01)
 
 
