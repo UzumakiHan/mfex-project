@@ -39,3 +39,12 @@ mfex-project create vue-demo
 ## https://github.com/UzumakiHan/hfex-icon
 
 ![Image text](https://raw.githubusercontent.com/UzumakiHan/static-files/master/images/hfex-icon-tip.png)
+
+## vue npm package 组件创建
+
+![Image text](https://raw.githubusercontent.com/UzumakiHan/static-files/master/images/vue-package.png)
+
+
+## react npm package 组件创建
+
+![Image text](https://raw.githubusercontent.com/UzumakiHan/static-files/master/images/react-package.png)

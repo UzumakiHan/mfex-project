@@ -32,6 +32,8 @@
     "package.json"
   ],
   "devDependencies": {
+    "@commitlint/cli": "^17.6.5",
+    "commitlint-config-hfex": "^1.0.2",
     "eslint": "^8.41.0",
     "eslint-config-hfex": "^1.0.2",
     "hfex-prettier-config": "^1.0.0",
@@ -39,6 +41,11 @@
     "lint-staged": "^13.2.2",
     "prettier": "^2.8.8",
     "typescript": "^5.0.4"
+  },
+  "commitlint": {
+    "extends": [
+      "hfex"
+    ]
   },
   "eslintConfig": {
     "root": true,
