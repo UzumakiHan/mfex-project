@@ -48,3 +48,7 @@ mfex-project create vue-demo
 ## react npm package 组件创建
 
 ![Image text](https://raw.githubusercontent.com/UzumakiHan/static-files/master/images/react-package.png)
+
+## plugin template 创建
+
+![Image text](https://raw.githubusercontent.com/UzumakiHan/static-files/master/images/plugin-template.png)
