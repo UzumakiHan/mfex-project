@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.1](https://github.com/UzumakiHan/mfex-project/compare/v1.2.0...v1.2.1) (2023-06-05)
+
+
+### 📝 Documentation | 文档
+
+* 修改README和添加commitlint ([339c1a4](https://github.com/UzumakiHan/mfex-project/commit/339c1a421e04ea373ad7a0432c8d6cbb21afe17b))
+
 ## [1.2.0](https://github.com/UzumakiHan/mfex-project/compare/v1.1.1...v1.2.0) (2023-06-02)
 
 
