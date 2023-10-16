@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.3.0](https://github.com/UzumakiHan/mfex-project/compare/v1.2.1...v1.3.0) (2023-10-16)
+
+
+### ✨ Features | 新功能
+
+* 添加创建webpack和vite插件模板 ([b3734bf](https://github.com/UzumakiHan/mfex-project/commit/b3734bfc2edd75eca08ea87c50b9a9c3a5f468a3))
+
+
+### 📝 Documentation | 文档
+
+* 更新README的plugin template ([1ae6cb0](https://github.com/UzumakiHan/mfex-project/commit/1ae6cb07321f0209d4604457a958027041992a95))
+
 ## [1.2.1](https://github.com/UzumakiHan/mfex-project/compare/v1.2.0...v1.2.1) (2023-06-05)
 
 
