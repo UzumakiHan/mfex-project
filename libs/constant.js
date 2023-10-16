@@ -26,3 +26,9 @@ export const vuePackageTemplateConfigList = JSON.parse(
 export const reactPackageTemplateConfigList = JSON.parse(
     fs.readFileSync(`${rootPath}libs/data/react-package-template.json`, 'utf8')
 );
+
+// plugin-template 插件配置
+
+export const pluginTemplateConfigList = JSON.parse(
+    fs.readFileSync(`${rootPath}libs/data/plugin-template.json`, 'utf8')
+);
