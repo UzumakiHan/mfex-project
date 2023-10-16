@@ -9,7 +9,8 @@ import {
     vueConfigList,
     reactConfigList,
     vuePackageTemplateConfigList,
-    reactPackageTemplateConfigList
+    reactPackageTemplateConfigList,
+    pluginTemplateConfigList
 } from '../constant.js';
 import {isFileExist, fileControl, delPath} from '../utils/index.js';
 // 设置检测重名的问题交互
@@ -51,6 +52,8 @@ const handleDownLoad = projectName => {
             configAnswer = vuePackageTemplateConfigList;
         } else if (res.features === 'react-node-package') {
             configAnswer = reactPackageTemplateConfigList;
+        } else if (res.features === 'plugin-template') {
+            configAnswer = pluginTemplateConfigList;
         }
 
         inquirer.prompt(configAnswer).then(result => {
@@ -90,6 +93,8 @@ const handleDownLoad = projectName => {
                     } else if (res.features === 'vue-node-package') {
                         fileControl(targetDir, '/src/vue/index.vue', answer);
                         fileControl(targetDir, '/typings/typing.d.ts', answer);
+                    } else if (res.features === 'plugin-template') {
+                        fileControl(targetDir, '/src/index.ts', answer);
                     }
                     // 处理vite.config.ts
 

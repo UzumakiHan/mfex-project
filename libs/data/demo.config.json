@@ -28,6 +28,12 @@
                 "value": "react-node-package",
                 "description": "react-node-package",
                 "link": "https://gitee.com/Hehanjian/react-package-template"
+            },
+            {
+                "name": "plugin-template",
+                "value": "plugin-template",
+                "description": "plugin-template",
+                "link": "https://gitee.com/Hehanjian/plugin-template"
             }
         ]
     }
